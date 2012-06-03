@@ -13,7 +13,7 @@ def validate
   end
 end
 
-
+ARGV[0]||=''
 Input = ARGV[0].gsub(/\A0*/,'')
 validate
 
